@@ -22,6 +22,8 @@ namespace xiGlass_app
     /// </summary>
     public partial class MainWindow : Window
     {
+        internal Uri Source;
+
         public MainWindow()
         {
             InitializeComponent();

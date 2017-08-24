@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Drawing;
-
+using System.Windows.Forms;
 
 namespace xiGlass_app
 {
@@ -24,8 +24,12 @@ namespace xiGlass_app
     {
         internal Uri Source;
 
+        NotifyIcon nIcon = new NotifyIcon();
         public MainWindow()
         {
+            nIcon.Icon = new Icon(@"C:\Users\Mr_El\Pictures\xiGlass_ico.ico");
+            nIcon.Visible = true;
+            nIcon.ShowBalloonTip(5000, "xiGlass", "Your controller is currently running", System.Windows.Forms.ToolTipIcon.Info);
             InitializeComponent();
         }
     }

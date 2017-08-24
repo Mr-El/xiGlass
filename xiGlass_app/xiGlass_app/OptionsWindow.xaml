@@ -13,6 +13,12 @@
         <Label x:Name="label2" Content="Height:" HorizontalAlignment="Left" Margin="32,99,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="widthBox" HorizontalAlignment="Left" Height="23" Margin="153,59,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="heightBox" HorizontalAlignment="Left" Height="23" Margin="153,103,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.398,-0.164"/>
+        <Label x:Name="label3" Content="Controller" HorizontalAlignment="Left" Margin="32,165,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="selectController" HorizontalAlignment="Left" Margin="153,168,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="selectController_SelectionChanged">
+            <ComboBoxItem IsSelected="True">Xbox 360/One</ComboBoxItem>
+            <ComboBoxItem>PlayStation</ComboBoxItem>
+        </ComboBox>
+        <Button x:Name="changeLayout" Content="Layout" HorizontalAlignment="Left" Margin="48,210,0,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>

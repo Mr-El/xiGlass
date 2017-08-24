@@ -1,0 +1,45 @@
+﻿<Window x:Class="xiGlass_app.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:xiGlass_app"
+        mc:Ignorable="d"
+        AllowsTransparency="True"
+        WindowStyle="None" Background="Transparent"
+        ResizeMode="NoResize" WindowState="Maximized" Width="1680" Height="1050">
+    <Canvas RenderTransformOrigin="0.423,0.401" Width="1920" Height="1080">
+        <Button x:Name="aButton" Background="Transparent" Canvas.Left="1424" Canvas.Top="758" RenderTransformOrigin="0.773,0.985">
+            <Image Source="C:\\Users\\Mr_El\\Pictures\\xbox buttons\\aButton.png" Width="50" Height="50"/>
+        </Button>
+        <Button x:Name="bButton" Background="Transparent" RenderTransformOrigin="2.11,0.489" Canvas.Left="1482" Canvas.Top="705">
+            <Image Source="C:\Users\Mr_El\Pictures\xbox buttons\bButton.png" Width="50" Height="50"/>
+        </Button>
+        <Button x:Name="xButton" Background="Transparent" Canvas.Left="1369" Canvas.Top="705">
+            <Image Source="C:\Users\Mr_El\Pictures\xbox buttons\xButton.png" Width="50" Height="50"/>
+        </Button>
+        <Button x:Name="yButton" Background="Transparent" Canvas.Left="1424" Canvas.Top="643">
+            <Image Source="C:\Users\Mr_El\Pictures\xbox buttons\yButton.png" Width="50" Height="50"/>
+        </Button>
+        <Button x:Name="leftJoyStick" Background="Transparent" Canvas.Left="132" Canvas.Top="813">
+            <Ellipse Fill="Gray" Height="100" Width="100" Stroke="Black"/>
+        </Button>
+        <Button x:Name="rightJoyStick" Background="Transparent" Canvas.Left="1544" Canvas.Top="813">
+            <Ellipse Fill="Gray" Height="100" Width="100" Stroke="Black"/>
+        </Button>
+        <Button x:Name="lbButton" Background="Transparent" Canvas.Left="90" Canvas.Top="651">
+            <Image Source="C:\Users\Mr_El\Pictures\xbox buttons\lbButton.png" Width="100"/>
+        </Button>
+        <Button x:Name="rbButton" Background="Transparent" Canvas.Left="1482" Canvas.Top="526">
+            <Image Source="C:\Users\Mr_El\Pictures\xbox buttons\rbButton.png" Width="100"/>
+        </Button>
+        <Button x:Name="ltButton" Background="Transparent" Canvas.Left="199" Canvas.Top="704">
+            <Image Source="C:\Users\Mr_El\Pictures\xbox buttons\ltButton.png" Height="100"/>
+        </Button>
+        <Button x:Name="rtButton" Background="Transparent" Canvas.Left="1597" Canvas.Top="576">
+            <Image Source="C:\Users\Mr_El\Pictures\xbox buttons\rtButton.png" Height="100"/>
+        </Button>
+    </Canvas>
+</Window>
+    
+  

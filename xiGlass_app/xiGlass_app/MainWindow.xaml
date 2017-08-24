@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:xiGlass_app"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        AllowsTransparency="True"
+        WindowStyle="None" Background="Transparent"
+        ResizeMode="NoResize" WindowState="Maximized">
+    <Canvas>
+        <Ellipse Fill="Gray" Height="100" Width="100" Stroke="Black"/>
+    </Canvas>
 </Window>

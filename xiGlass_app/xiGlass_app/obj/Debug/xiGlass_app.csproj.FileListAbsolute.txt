@@ -1,0 +1,14 @@
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\bin\Debug\xiGlass_app.exe.config
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\bin\Debug\xiGlass_app.exe
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\bin\Debug\xiGlass_app.pdb
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.csprojResolveAssemblyReference.cache
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\MainWindow.g.cs
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\App.g.cs
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app_MarkupCompile.cache
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app_MarkupCompile.lref
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\MainWindow.baml
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.g.resources
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.Properties.Resources.resources
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.csproj.GenerateResource.Cache
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.exe
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.pdb

@@ -102,7 +102,16 @@
   <ItemGroup>
     <None Include="Images\App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\aButton.png" />
+    <Resource Include="Images\bButton.png" />
+    <Resource Include="Images\lbButton.png" />
+    <Resource Include="Images\ltButton.png" />
+    <Resource Include="Images\rbButton.png" />
+    <Resource Include="Images\rtButton.png" />
+    <Resource Include="Images\xButton.png" />
+    <Resource Include="Images\yButton.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\xiGlass_ico.ico" />
   </ItemGroup>

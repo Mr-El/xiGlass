@@ -22,10 +22,10 @@
             <Image Source="Images\yButton.png" Width="50" Height="50"/>
         </Button>
         <Button x:Name="leftJoyStick" Background="Transparent" Canvas.Left="132" Canvas.Top="813">
-            <Ellipse Fill="Gray" Height="100" Width="100" Stroke="Black"/>
+            <Image Source="Images\joystick.png" Width="100" Height="100"/>
         </Button>
         <Button x:Name="rightJoyStick" Background="Transparent" Canvas.Left="1544" Canvas.Top="813">
-            <Ellipse Fill="Gray" Height="100" Width="100" Stroke="Black"/>
+            <Image Source="Images\joystick.png" Width="100" Height="100"/>
         </Button>
         <Button x:Name="lbButton" Background="Transparent" Canvas.Left="90" Canvas.Top="651">
             <Image Source="Images\lbButton.png" Width="100"/>
@@ -38,6 +38,21 @@
         </Button>
         <Button x:Name="rtButton" Background="Transparent" Canvas.Left="1597" Canvas.Top="576">
             <Image Source="Images\rtButton.png" Height="100"/>
+        </Button>
+        <Button x:Name="dpad" Background="Transparent" Canvas.Left="624" Canvas.Top="367">
+            <Image Source="Images\dpad.png" Width="100" Height="100"/>
+        </Button>
+        <Button x:Name="Guide" Background="Transparent" Canvas.Left="877" Canvas.Top="658">
+            <Image Source="Images\guide.png" Width="150" Height="150"/>
+        </Button>
+        <Button x:Name="Start" Background="Transparent" Canvas.Left="650" Canvas.Top="589">
+            <Ellipse Fill="Gray" Width="75" Height="25" Stroke="Black"/>
+        </Button>
+        <Button x:Name="Select" Background="Transparent" Canvas.Left="515" Canvas.Top="589">
+            <Ellipse Fill="Gray" Width="75" Height="25" Stroke="Black"/>
+        </Button>
+        <Button x:Name="Exit" Background="Transparent" Canvas.Left="816" Canvas.Top="393">
+            <Image Source="Images\exit.png" Width="75" Height="75"/>
         </Button>
     </Canvas>
 </Window>

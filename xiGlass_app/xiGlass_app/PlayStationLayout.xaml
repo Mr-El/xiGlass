@@ -1,0 +1,56 @@
+﻿<Window x:Class="xiGlass_app.PlayStationLayout"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:xiGlass_app"
+        mc:Ignorable="d"
+        AllowsTransparency="True"
+        WindowStyle="None" Background="Transparent"
+        ResizeMode="NoResize" WindowState="Maximized" 
+        Width="{Binding SystemParameters.PrimaryScreenWidth}"
+        Height="{Binding SystemParameters.PrimaryScreenHeight}"
+        Icon="Images\xiGlass_ico.ico">
+    
+    <Canvas Background="Transparent">
+        <Button x:Name="crossBtn" Background="Transparent" Canvas.Left="396" Canvas.Top="370" BorderThickness="0">
+            <Image Source="Images\cross.png" Width="50" Height="50"/>
+        </Button>
+        <Button x:Name="squareBtn" Background="Transparent" Canvas.Left="305" Canvas.Top="350" BorderThickness="0">
+            <Image Source="Images\square.png" Width="50" Height="50"/>
+        </Button>
+        <Button x:Name="circleBtn" Background="Transparent" Canvas.Left="305" Canvas.Top="276" BorderThickness="0">
+            <Image Source="Images\circle.png" Width="50" Height="50"/>
+        </Button>
+        <Button x:Name="triangleBtn" Background="Transparent" Canvas.Left="234" Canvas.Top="259" BorderThickness="0">
+            <Image Source="Images\triangle.png" Width="50" Height="50"/>
+        </Button>
+        <Button x:Name="dpad" Background="Transparent" BorderThickness="0" Canvas.Left="492" Canvas.Top="276">
+            <Image Source="Images\ps3_dpad.png" Width="100" Height="100"/>
+        </Button>
+        <Button x:Name="PlaystationBtn" Background="Transparent" BorderThickness="0" Canvas.Left="674" Canvas.Top="370">
+            <Image Source="Images\PlayStation-logo.png" Width="150" Height="150"/>
+        </Button>
+        <Button x:Name="Select" Background="Transparent" BorderThickness="0" Canvas.Left="644" Canvas.Top="244">
+            <Rectangle Fill="Gray" Width="75" Height="25"/>
+        </Button>
+        <Button x:Name="Exit" Background="Transparent" BorderThickness="0" Canvas.Left="508" Canvas.Top="128">
+            <Image Source="Images\exit.png" Width="100" Height="100"/>
+        </Button>
+        <Button x:Name="Start" Background="Transparent" BorderThickness="0" Canvas.Left="285" Canvas.Top="128">
+            <Image Source="Images\play-button.png" Width="75" Height="25"/>
+        </Button>
+        <Button x:Name="leftJoyStick" Background="Transparent" BorderThickness="0" Canvas.Left="78" Canvas.Top="480">
+            <Image Source="Images\joystick.png" Width="100" Height="100"/>
+        </Button>
+        <Button x:Name="rightJoyStick" Background="Transparent" BorderThickness="0" Canvas.Left="421" Canvas.Top="480">
+            <Image Source="Images\joystick.png" Width="100" Height="100"/>
+        </Button>
+        <Button x:Name="l1" Background="Transparent" BorderThickness="0" Canvas.Left="182" Canvas.Top="155">
+            <Rectangle Fill="Gray" Width="100" Height="40"/>
+        </Button>
+        <Button x:Name="r1" Background="Transparent" BorderThickness="0" Canvas.Left="368" Canvas.Top="155">
+            <Rectangle Fill="Gray" Width="100" Height="40"/>
+        </Button>
+    </Canvas>
+</Window>

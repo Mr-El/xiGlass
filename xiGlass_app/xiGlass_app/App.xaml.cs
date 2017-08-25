@@ -18,11 +18,11 @@ namespace xiGlass_app
 
         }
 
-        protected override void OnStartup(StartupEventArgs e)
+        /*protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
             var form = new OptionsForm();
             form.Show();
-        }
+        }*/
     }
 }

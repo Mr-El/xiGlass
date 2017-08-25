@@ -10,8 +10,8 @@ C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlas
 C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.csproj.GenerateResource.Cache
 C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.exe
 C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.pdb
-C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\OptionsWindow.g.cs
-C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\OptionsWindow.baml
 C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\XboxGamepad.g.cs
 C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\XboxGamepad.baml
 C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.OptionsForm.resources
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\PlayStationLayout.g.cs
+C:\Users\Mr_El\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\PlayStationLayout.baml

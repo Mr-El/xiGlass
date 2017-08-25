@@ -31,14 +31,15 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OptionsForm));
             this.resolutionGroup = new System.Windows.Forms.GroupBox();
+            this.heightBox = new System.Windows.Forms.TextBox();
+            this.widthBox = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.controllerList = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.widthBox = new System.Windows.Forms.TextBox();
-            this.heightBox = new System.Windows.Forms.TextBox();
             this.startButton = new System.Windows.Forms.Button();
             this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
+            this.customizeButton = new System.Windows.Forms.Button();
             this.resolutionGroup.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,6 +56,40 @@
             this.resolutionGroup.TabStop = false;
             this.resolutionGroup.Text = "Resolution:";
             // 
+            // heightBox
+            // 
+            this.heightBox.Location = new System.Drawing.Point(143, 82);
+            this.heightBox.Name = "heightBox";
+            this.heightBox.Size = new System.Drawing.Size(100, 22);
+            this.heightBox.TabIndex = 3;
+            this.heightBox.Text = "1080";
+            // 
+            // widthBox
+            // 
+            this.widthBox.Location = new System.Drawing.Point(143, 31);
+            this.widthBox.Name = "widthBox";
+            this.widthBox.Size = new System.Drawing.Size(100, 22);
+            this.widthBox.TabIndex = 2;
+            this.widthBox.Text = "1920";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(19, 85);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(53, 17);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Height:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(19, 34);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(48, 17);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Width:";
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -68,46 +103,13 @@
             // 
             this.controllerList.FormattingEnabled = true;
             this.controllerList.Items.AddRange(new object[] {
-            "Xbox 360/One",
             "PlayStation 4"});
             this.controllerList.Location = new System.Drawing.Point(131, 187);
             this.controllerList.Name = "controllerList";
             this.controllerList.Size = new System.Drawing.Size(139, 24);
             this.controllerList.TabIndex = 2;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 34);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 17);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Width:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(19, 85);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(53, 17);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Height:";
-            // 
-            // widthBox
-            // 
-            this.widthBox.Location = new System.Drawing.Point(143, 31);
-            this.widthBox.Name = "widthBox";
-            this.widthBox.Size = new System.Drawing.Size(100, 22);
-            this.widthBox.TabIndex = 2;
-            this.widthBox.Text = "1920";
-            // 
-            // heightBox
-            // 
-            this.heightBox.Location = new System.Drawing.Point(143, 82);
-            this.heightBox.Name = "heightBox";
-            this.heightBox.Size = new System.Drawing.Size(100, 22);
-            this.heightBox.TabIndex = 3;
-            this.heightBox.Text = "1080";
+            this.controllerList.Text = "Xbox 360/One";
+            this.controllerList.SelectedIndexChanged += new System.EventHandler(this.controllerList_SelectedIndexChanged);
             // 
             // startButton
             // 
@@ -125,11 +127,21 @@
             this.notifyIcon.Text = "testing";
             this.notifyIcon.Visible = true;
             // 
+            // customizeButton
+            // 
+            this.customizeButton.Location = new System.Drawing.Point(15, 239);
+            this.customizeButton.Name = "customizeButton";
+            this.customizeButton.Size = new System.Drawing.Size(102, 40);
+            this.customizeButton.TabIndex = 4;
+            this.customizeButton.Text = "Customize";
+            this.customizeButton.UseVisualStyleBackColor = true;
+            // 
             // OptionsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(283, 291);
+            this.Controls.Add(this.customizeButton);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.controllerList);
             this.Controls.Add(this.label1);
@@ -154,5 +166,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.NotifyIcon notifyIcon;
+        private System.Windows.Forms.Button customizeButton;
     }
 }

@@ -57,6 +57,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="PlayStationLayout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="XboxGamepad.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -71,19 +75,15 @@
     <Compile Include="OptionsForm.Designer.cs">
       <DependentUpon>OptionsForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="PlayStationLayout.xaml.cs">
+      <DependentUpon>PlayStationLayout.xaml</DependentUpon>
+    </Compile>
     <Compile Include="XboxGamepad.xaml.cs">
       <DependentUpon>XboxGamepad.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="OptionsWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OptionsWindow.xaml.cs">
-      <DependentUpon>OptionsWindow.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -137,6 +137,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\start go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\circle.png" />
+    <Resource Include="Images\cross.png" />
+    <Resource Include="Images\square.png" />
+    <Resource Include="Images\triangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ps3_dpad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Playstation-logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\play-button.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

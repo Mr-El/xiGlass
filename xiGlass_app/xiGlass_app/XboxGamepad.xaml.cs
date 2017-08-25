@@ -5,7 +5,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using System.Windows.Controls;
 using System.Linq;
-using SlimDX.DirectInput;
+//using SlimDX.DirectInput;
 
 namespace xiGlass_app
 {
@@ -19,7 +19,7 @@ namespace xiGlass_app
         NotifyIcon nIcon = new NotifyIcon();
         public MainWindow()
         {
-            nIcon.Icon = new Icon(@"C:\Users\Mr_El\Pictures\xiGlass_ico.ico");
+            //nIcon.Icon = new Icon(@"Images\xiGlass_ico.ico");
             nIcon.Visible = true;
             nIcon.ShowBalloonTip(5000, "xiGlass", "Your controller is currently running", System.Windows.Forms.ToolTipIcon.Info);
             InitializeComponent();
@@ -33,7 +33,7 @@ namespace xiGlass_app
         }
 
         //Experimental code for joysticks
-        DirectInput input = new DirectInput();
+        /*DirectInput input = new DirectInput();
         private JoystickState state;
 
         public class GameController
@@ -42,7 +42,7 @@ namespace xiGlass_app
             private JoystickState state = new JoystickState();
         }
 
-        /*
+      
         public GameControllers(DirectInput directInput, Game game, int number)
         {
             var devices = directInput.GetDevices(DeviceClass.GameController, DeviceEnumerationFlags.AttachedOnly);

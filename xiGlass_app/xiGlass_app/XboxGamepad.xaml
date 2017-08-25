@@ -12,40 +12,40 @@
         Height="{Binding SystemParameters.PrimaryScreenHeight}"
         Icon="Images\xiGlass_ico.ico">
     <Canvas  Width="{Binding SystemParameters.PrimaryScreenWidth}" Height="{Binding SystemParameters.PrimaryScreenHieght}">
-        <Button x:Name="aButton" Background="Transparent" Canvas.Left="1424" Canvas.Top="758" RenderTransformOrigin="0.773,0.985" BorderThickness="0">
+        <Button x:Name="aButton" Background="Transparent" Canvas.Left="1135" Canvas.Top="657" RenderTransformOrigin="0.773,0.985" BorderThickness="0">
             <Image Source="Images\aButton.png" Width="50" Height="50"/>
         </Button>
-        <Button x:Name="bButton" Background="Transparent" RenderTransformOrigin="2.11,0.489" Canvas.Left="1482" Canvas.Top="705" BorderThickness="0">
+        <Button x:Name="bButton" Background="Transparent" RenderTransformOrigin="2.11,0.489" Canvas.Left="1186" Canvas.Top="606" BorderThickness="0">
             <Image Source="Images\bButton.png" Width="50" Height="50"/>
         </Button>
-        <Button x:Name="xButton" Background="Transparent" Canvas.Left="1369" Canvas.Top="705" BorderThickness="0">
-            <Image Source="Images\yButton.png" Width="50" Height="50"/>
+        <Button x:Name="xButton" Background="Transparent" Canvas.Left="1084" Canvas.Top="606" BorderThickness="0">
+            <Image Source="Images\xButton.png" Width="50" Height="50"/>
         </Button>
-        <Button x:Name="yButton" Background="Transparent" Canvas.Left="1424" Canvas.Top="643" BorderThickness="0">
+        <Button x:Name="yButton" Background="Transparent" Canvas.Left="1135" Canvas.Top="555" BorderThickness="0">
             <Image Source="Images\yButton.png" Width="50" Height="50"/>
         </Button>
         <Button x:Name="leftJoyStick" Background="Transparent" Canvas.Left="56" Canvas.Top="707" BorderThickness="0">
             <Image Source="Images\joystick.png" Width="100" Height="100"/>
         </Button>
-        <Button x:Name="rightJoyStick" Background="Transparent" Canvas.Left="1544" Canvas.Top="813" BorderThickness="0">
+        <Button x:Name="rightJoyStick" Background="Transparent" Canvas.Left="1189" Canvas.Top="707" BorderThickness="0">
             <Image Source="Images\joystick.png" Width="100" Height="100"/>
         </Button>
         <Button x:Name="lbButton" Background="Transparent" Canvas.Left="144" Canvas.Top="394" BorderThickness="0">
             <Image Source="Images\lbButton.png" Width="100"/>
         </Button>
-        <Button x:Name="rbButton" Background="Transparent" Canvas.Left="1482" Canvas.Top="526" BorderThickness="0">
+        <Button x:Name="rbButton" Background="Transparent" Canvas.Left="1139" Canvas.Top="424" BorderThickness="0">
             <Image Source="Images\rbButton.png" Width="100"/>
         </Button>
         <Button x:Name="ltButton" Background="Transparent" Canvas.Left="264" Canvas.Top="467" BorderThickness="0">
             <Image Source="Images\ltButton.png" Height="100"/>
         </Button>
-        <Button x:Name="rtButton" Background="Transparent" Canvas.Left="1597" Canvas.Top="576" BorderThickness="0">
+        <Button x:Name="rtButton" Background="Transparent" Canvas.Left="1242" Canvas.Top="467" BorderThickness="0">
             <Image Source="Images\rtButton.png" Height="100"/>
         </Button>
         <Button x:Name="dpad" Background="Transparent" Canvas.Left="264" Canvas.Top="658" BorderThickness="0">
             <Image Source="Images\dpad.png" Width="100" Height="100"/>
         </Button>
-        <Button x:Name="Guide" Background="Transparent" Canvas.Left="877" Canvas.Top="658" BorderThickness="0">
+        <Button x:Name="Guide" Background="Transparent" Canvas.Left="546" Canvas.Top="643" BorderThickness="0">
             <Image Source="Images\guide.png" Width="150" Height="150"/>
         </Button>
         <Button x:Name="Start" Background="Transparent" Canvas.Left="650" Canvas.Top="589" BorderThickness="0">
@@ -54,7 +54,7 @@
         <Button x:Name="Select" Background="Transparent" Canvas.Left="515" Canvas.Top="589" BorderThickness="0">
             <Ellipse Fill="Gray" Width="75" Height="25" Stroke="Black"/>
         </Button>
-        <Button x:Name="Exit" Background="Transparent" Canvas.Left="816" Canvas.Top="367" BorderThickness="0" Height="103" Width="150" Click="Exit_Click">
+        <Button x:Name="Exit" Background="Transparent" Canvas.Left="546" Canvas.Top="432" BorderThickness="0" Height="103" Width="150" Click="Exit_Click">
             <Image Source="Images\exit.png" Width="75" Height="75"/>
         </Button>
     </Canvas>

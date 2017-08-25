@@ -11,24 +11,24 @@
         Width="{Binding SystemParameters.PrimaryScreenWidth}"
         Height="{Binding SystemParameters.PrimaryScreenHeight}"
         Icon="Images\xiGlass_ico.ico">
-    
-    <Canvas Background="Transparent">
-        <Button x:Name="crossBtn" Background="Transparent" Canvas.Left="396" Canvas.Top="370" BorderThickness="0">
+
+    <Canvas Background="Transparent" Width="{Binding SystemParameters.PrimaryScreenWidth}" Height="{Binding SystemParameters.PrimaryScreenHeight}">
+        <Button x:Name="crossBtn" Background="Transparent" Canvas.Left="1123" Canvas.Top="640" BorderThickness="0">
             <Image Source="Images\cross.png" Width="50" Height="50"/>
         </Button>
-        <Button x:Name="squareBtn" Background="Transparent" Canvas.Left="305" Canvas.Top="350" BorderThickness="0">
+        <Button x:Name="squareBtn" Background="Transparent" Canvas.Left="1174" Canvas.Top="589" BorderThickness="0">
             <Image Source="Images\square.png" Width="50" Height="50"/>
         </Button>
-        <Button x:Name="circleBtn" Background="Transparent" Canvas.Left="305" Canvas.Top="276" BorderThickness="0">
+        <Button x:Name="circleBtn" Background="Transparent" Canvas.Left="1068" Canvas.Top="589" BorderThickness="0">
             <Image Source="Images\circle.png" Width="50" Height="50"/>
         </Button>
-        <Button x:Name="triangleBtn" Background="Transparent" Canvas.Left="234" Canvas.Top="259" BorderThickness="0">
+        <Button x:Name="triangleBtn" Background="Transparent" Canvas.Left="1123" Canvas.Top="533" BorderThickness="0">
             <Image Source="Images\triangle.png" Width="50" Height="50"/>
         </Button>
-        <Button x:Name="dpad" Background="Transparent" BorderThickness="0" Canvas.Left="492" Canvas.Top="276">
+        <Button x:Name="dpad" Background="Transparent" BorderThickness="0" Canvas.Left="259" Canvas.Top="691">
             <Image Source="Images\ps3_dpad.png" Width="100" Height="100"/>
         </Button>
-        <Button x:Name="PlaystationBtn" Background="Transparent" BorderThickness="0" Canvas.Left="674" Canvas.Top="370">
+        <Button x:Name="PlaystationBtn" Background="Transparent" BorderThickness="0" Canvas.Left="627" Canvas.Top="613">
             <Image Source="Images\PlayStation-logo.png" Width="150" Height="150"/>
         </Button>
         <Button x:Name="Select" Background="Transparent" BorderThickness="0" Canvas.Left="644" Canvas.Top="244">
@@ -40,17 +40,23 @@
         <Button x:Name="Start" Background="Transparent" BorderThickness="0" Canvas.Left="285" Canvas.Top="128">
             <Image Source="Images\play-button.png" Width="75" Height="25"/>
         </Button>
-        <Button x:Name="leftJoyStick" Background="Transparent" BorderThickness="0" Canvas.Left="78" Canvas.Top="480">
+        <Button x:Name="leftJoyStick" Background="Transparent" BorderThickness="0" Canvas.Left="61" Canvas.Top="691">
             <Image Source="Images\joystick.png" Width="100" Height="100"/>
         </Button>
-        <Button x:Name="rightJoyStick" Background="Transparent" BorderThickness="0" Canvas.Left="421" Canvas.Top="480">
+        <Button x:Name="rightJoyStick" Background="Transparent" BorderThickness="0" Canvas.Left="1174" Canvas.Top="691">
             <Image Source="Images\joystick.png" Width="100" Height="100"/>
         </Button>
-        <Button x:Name="l1" Background="Transparent" BorderThickness="0" Canvas.Left="182" Canvas.Top="155">
+        <Button x:Name="l1" Background="Transparent" BorderThickness="0" Canvas.Left="155" Canvas.Top="589">
             <Rectangle Fill="Gray" Width="100" Height="40"/>
         </Button>
-        <Button x:Name="r1" Background="Transparent" BorderThickness="0" Canvas.Left="368" Canvas.Top="155">
+        <Button x:Name="r1" Background="Transparent" BorderThickness="0" Canvas.Left="949" Canvas.Top="506">
             <Rectangle Fill="Gray" Width="100" Height="40"/>
+        </Button>
+        <Button x:Name="l2" Background="Transparent" BorderThickness="0" Canvas.Left="206" Canvas.Top="444">
+            <Ellipse Fill="Gray" Width="75" Height="80"/>
+        </Button>
+        <Button x:Name="r2" Background="Transparent" BorderThickness="0" Canvas.Left="949" Canvas.Top="398">
+            <Ellipse Fill="Gray" Width="75" Height="80"/>
         </Button>
     </Canvas>
 </Window>

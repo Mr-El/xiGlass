@@ -136,6 +136,7 @@
             this.customizeButton.TabIndex = 4;
             this.customizeButton.Text = "Customize";
             this.customizeButton.UseVisualStyleBackColor = true;
+            this.customizeButton.Click += new System.EventHandler(this.customizeButton_Click);
             // 
             // OptionsForm
             // 

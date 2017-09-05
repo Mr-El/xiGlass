@@ -65,7 +65,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="XboxGamepad.xaml">
+    <Page Include="XboxLayout.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -82,8 +82,8 @@
     <Compile Include="PlayStationLayout.xaml.cs">
       <DependentUpon>PlayStationLayout.xaml</DependentUpon>
     </Compile>
-    <Compile Include="XboxGamepad.xaml.cs">
-      <DependentUpon>XboxGamepad.xaml</DependentUpon>
+    <Compile Include="XboxLayout.xaml.cs">
+      <DependentUpon>XboxLayout.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -156,6 +156,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\play-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\back.png" />
+    <Content Include="xInput.cpp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

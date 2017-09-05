@@ -38,12 +38,10 @@ C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\bin\Debug\xiGlas
 C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\bin\Debug\xiGlass_app.pdb
 C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.csprojResolveAssemblyReference.cache
 C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\PlayStationLayout.g.cs
-C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\XboxGamepad.g.cs
 C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\App.g.cs
 C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app_MarkupCompile.cache
 C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app_MarkupCompile.lref
 C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\PlayStationLayout.baml
-C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\XboxGamepad.baml
 C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.g.resources
 C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.OptionsForm.resources
 C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.Properties.Resources.resources
@@ -51,3 +49,6 @@ C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlas
 C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.csproj.CoreCompileInputs.cache
 C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.exe
 C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app.pdb
+C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\xiGlass_app_Content.g.cs
+C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\XboxLayout.g.cs
+C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\xiGlass_app\obj\Debug\XboxLayout.baml

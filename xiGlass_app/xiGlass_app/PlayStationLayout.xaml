@@ -31,10 +31,10 @@
         <Button x:Name="PlaystationBtn" Background="Transparent" BorderThickness="0" Canvas.Left="627" Canvas.Top="613">
             <Image Source="Images\PlayStation-logo.png" Width="150" Height="150"/>
         </Button>
-        <Button x:Name="Select" Background="Transparent" BorderThickness="0" Canvas.Left="644" Canvas.Top="244">
+        <Button x:Name="Select" Background="Transparent" BorderThickness="0" Canvas.Left="724" Canvas.Top="516">
             <Rectangle Fill="Gray" Width="75" Height="25"/>
         </Button>
-        <Button x:Name="Exit" Background="Transparent" BorderThickness="0" Canvas.Left="508" Canvas.Top="128">
+        <Button x:Name="Exit" Background="Transparent" BorderThickness="0" Canvas.Left="588" Canvas.Top="400" Height="135" Width="136" Click="Exit_Click">
             <Image Source="Images\exit.png" Width="100" Height="100"/>
         </Button>
         <Button x:Name="Start" Background="Transparent" BorderThickness="0" Canvas.Left="285" Canvas.Top="128">
@@ -57,6 +57,9 @@
         </Button>
         <Button x:Name="r2" Background="Transparent" BorderThickness="0" Canvas.Left="949" Canvas.Top="398">
             <Ellipse Fill="Gray" Width="75" Height="80"/>
+        </Button>
+        <Button x:Name="Back" Background="Transparent" BorderThickness="0" Canvas.Left="461" Canvas.Top="444" Height="103" Width="122" Click="Back_Click">
+            <Image Source="Images\back.png" Width="75" Height="75"/>
         </Button>
     </Canvas>
 </Window>

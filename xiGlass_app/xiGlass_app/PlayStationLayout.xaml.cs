@@ -23,6 +23,18 @@ namespace xiGlass_app
         {
             InitializeComponent();
         }
+
+        private void Exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Back_Click(object sender, RoutedEventArgs e)
+        {
+            OptionsForm exitOut = new OptionsForm();
+            exitOut.Show();
+            this.Hide();
+        }
     }
 
     public class CanvasAutoSize : Canvas

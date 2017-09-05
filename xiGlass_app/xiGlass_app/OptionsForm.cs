@@ -21,7 +21,7 @@ namespace xiGlass_app
         {
             if (controllerList.SelectedIndex < controllerList.SelectedIndex - 1)
             {
-                MainWindow xboxLayout = new MainWindow();
+                XboxLayout xboxLayout = new XboxLayout();
                 xboxLayout.Show();
                 this.Hide();
             }
@@ -43,6 +43,22 @@ namespace xiGlass_app
                 case "PlayStation 4":
                     controllerList.SelectedIndex = 1;
                     break;
+            }
+        }
+
+        private void customizeButton_Click(object sender, EventArgs e)
+        {
+            if (controllerList.SelectedIndex < controllerList.SelectedIndex - 1)
+            {
+                XboxLayout xboxLayout = new XboxLayout();
+                xboxLayout.Show();
+                this.Hide();
+            }
+            else
+            {
+                PlayStationLayout playstationLayout = new PlayStationLayout();
+                playstationLayout.Show();
+                this.Hide();
             }
         }
     }

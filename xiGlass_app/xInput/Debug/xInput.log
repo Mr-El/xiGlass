@@ -1,0 +1,9 @@
+﻿  xInput.cpp
+xInput.obj : error LNK2005: "public: bool __thiscall Gamepad::CheckConnection(void)" (?CheckConnection@Gamepad@@QAE_NXZ) already defined in gamepad.obj
+xInput.obj : error LNK2005: "public: int __thiscall Gamepad::GetPort(void)" (?GetPort@Gamepad@@QAEHXZ) already defined in gamepad.obj
+xInput.obj : error LNK2005: "public: struct _XINPUT_GAMEPAD * __thiscall Gamepad::GetState(void)" (?GetState@Gamepad@@QAEPAU_XINPUT_GAMEPAD@@XZ) already defined in gamepad.obj
+xInput.obj : error LNK2005: "public: bool __thiscall Gamepad::IsPressed(unsigned short)" (?IsPressed@Gamepad@@QAE_NG@Z) already defined in gamepad.obj
+xInput.obj : error LNK2005: "public: bool __thiscall Gamepad::Refresh(void)" (?Refresh@Gamepad@@QAE_NXZ) already defined in gamepad.obj
+gamepad.obj : error LNK2019: unresolved external symbol _XInputGetState@8 referenced in function "public: bool __thiscall Gamepad::CheckConnection(void)" (?CheckConnection@Gamepad@@QAE_NXZ)
+xInput.obj : error LNK2001: unresolved external symbol _XInputGetState@8
+C:\Users\elane\Documents\GitHub\xiGlass\xiGlass_app\Debug\xInput.exe : fatal error LNK1120: 1 unresolved externals

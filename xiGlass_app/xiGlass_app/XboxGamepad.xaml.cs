@@ -20,8 +20,8 @@ namespace xiGlass_app
         public MainWindow()
         {
             //nIcon.Icon = new Icon(@"Images\xiGlass_ico.ico");
-            nIcon.Visible = true;
-            nIcon.ShowBalloonTip(5000, "xiGlass", "Your controller is currently running", System.Windows.Forms.ToolTipIcon.Info);
+            //nIcon.Visible = true;
+            //nIcon.ShowBalloonTip(5000, "xiGlass", "Your controller is currently running", System.Windows.Forms.ToolTipIcon.Info);
             InitializeComponent();
         }
 

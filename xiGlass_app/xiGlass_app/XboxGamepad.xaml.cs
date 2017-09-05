@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Controls.Ribbon;
 using System.Drawing;
-using System.Windows.Forms;
+//using System.Windows.Forms;
 using System.Windows.Controls;
 using System.Linq;
 //using SlimDX.DirectInput;
@@ -16,7 +16,7 @@ namespace xiGlass_app
     {
         internal Uri Source;
 
-        NotifyIcon nIcon = new NotifyIcon();
+        //NotifyIcon nIcon = new NotifyIcon();
         public MainWindow()
         {
             //nIcon.Icon = new Icon(@"Images\xiGlass_ico.ico");

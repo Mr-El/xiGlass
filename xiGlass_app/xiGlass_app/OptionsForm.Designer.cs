@@ -103,6 +103,7 @@
             // 
             this.controllerList.FormattingEnabled = true;
             this.controllerList.Items.AddRange(new object[] {
+            "Xbox 360/One",
             "PlayStation 4"});
             this.controllerList.Location = new System.Drawing.Point(131, 187);
             this.controllerList.Name = "controllerList";

@@ -19,7 +19,7 @@ namespace xiGlass_app
 
         private void startButton_Click(object sender, EventArgs e)
         {
-            if (controllerList.SelectedIndex < controllerList.SelectedIndex + 1)
+            if (controllerList.SelectedIndex < controllerList.SelectedIndex - 1)
             {
                 MainWindow xboxLayout = new MainWindow();
                 xboxLayout.Show();
@@ -41,7 +41,7 @@ namespace xiGlass_app
                     controllerList.SelectedIndex = 0;
                     break;
                 case "PlayStation 4":
-                    controllerList.SelectedIndex = 0;
+                    controllerList.SelectedIndex = 1;
                     break;
             }
         }
